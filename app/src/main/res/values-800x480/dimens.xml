@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cicle_view_x">13dp</dimen>
+    <dimen name="cicle_view_y">13dp</dimen>
+    <dimen name="cicle_view_radius">13dp</dimen>
+    
+    <!-- cardioplot bar -->
+    <dimen name="cardioplot_bar_height">33dip</dimen>
+    <dimen name="btn_reset_height">29dip</dimen>
+    <dimen name="but_state_connect_height">29dip</dimen>
+    
+     <!-- lin -->
+    <dimen name="lin_marginTop">9dip</dimen>
+    <dimen name="lin_width">514dip</dimen>
+    <dimen name="lin_height">112dip</dimen>
+    <dimen name="lin_marginLeft">-8dip</dimen>
+    
+    <!-- datas -->
+    <dimen name="datas_marginTop">111dip</dimen>
+    <dimen name="text_width">70dip</dimen>
+    <dimen name="text_size">54sp</dimen>
+    <dimen name="habpm_text_marginLeft">70dip</dimen>
+    <dimen name="r2rinterval_text_marginLeft">250dip</dimen>
+    <dimen name="hrv_text_marginLeft">385dip</dimen>
+    
+    <dimen name="hrv_countdown_width">56dip</dimen>
+    <dimen name="hrv_countdown_marginTop">6dip</dimen>
+    <dimen name="counter_text_height">48dip</dimen>
+    <dimen name="counter_text_marginTop">9dip</dimen>
+    <dimen name="counter_text_size">24sp</dimen>
+    
+    <!-- Version info -->
+		<dimen name="version_info_text_size">14sp</dimen>
+		<dimen name="version_info_marginRight">20dip</dimen>
+		<dimen name="version_info_marginBottom">3dip</dimen>
+		
+		<!-- Plus -->
+		<dimen name="pluse_width">38dip</dimen>
+		<dimen name="pluse_height">157dip</dimen>
+		<dimen name="pluse_marginRight">3dip</dimen>
+		<dimen name="pluse_marginTop">-5dip</dimen>
+		
+		<!-- Mood -->
+		<dimen name="progress_bg_width">450dip</dimen>
+		<dimen name="progress_bg_height">35dip</dimen>
+		<dimen name="progress_bg_marginBottom">29dip</dimen>
+		<dimen name="progress_bg_marginLeft">59dip</dimen>
+		
+		<dimen name="rel_width">37dip</dimen>
+		<dimen name="rel_height">47dip</dimen>	
+		<dimen name="rel_marginLeft">54dip</dimen>
+		<dimen name="but_mood_marginLeft">6dip</dimen>
+		<dimen name="but_mood_marginTop">17dip</dimen>
+</resources>

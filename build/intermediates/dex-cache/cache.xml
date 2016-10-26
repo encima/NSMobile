@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_19abccd5e964c3e61dad1455a3c246b618409a44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="244df23a1d4f5b5998924e47083a0d151bc729f7">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.couchbase.lite-couchbase-lite-android-1.3.0_33975685449c6281389808b8e0434a2e5e51234e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_359b343837911711bf9f6a1a68ec4e146c9dceef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a4f773399622362d9e0b87e1ef0e83361bdf4f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.rvalerio/fgchecker/1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="91705d00b7a7ca5e79b21165fb4572c53cb386a3">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rvalerio-fgchecker-1.0_a278a39028009338f556fba0000466a3b0dee092/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/libs/libStreamSDK_v1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="033b7351fc2173a9ac8e82a355c877495759eb67">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_4d9d3685429e0713a3e7204d733d0cd4db4037a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_7a8a4c485dd8d088bec973da22c77145235be4eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_1c1c7ffa77994219cb9817889fbdae67a395e00f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_843a356cb59be97e524df290cdc81a64578d946e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/reflectasm/1.10.1/515402cd542ab967a1b5028b4dee1e1800db205b/reflectasm-1.10.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="515402cd542ab967a1b5028b4dee1e1800db205b">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/reflectasm-1.10.1_91380a6bc20cf6745a22cd6aa18e9d2b5b426efe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_6865ff837596ff24abe24db14bcd2aa3d69af09a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_853ed5606803fd2c031ee308120ba95af43665d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/libs/commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c427b7376a74bb0445ca15ecae572107d44c1411">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_040b5b4912560c319c23ada6948425f9b0d78872/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a2757f890d748de110c9a349d0d0c4ca3b04eca9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/ff07b5f1b01d2f92bb00a337f9a94873712f0827/minlog-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff07b5f1b01d2f92bb00a337f9a94873712f0827">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/minlog-1.3.0_9264d7664ddee938f3b8a83999c68153c541932e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.github.oxo42/stateless4j/2.4.0/128aca4ace585f0b42faa739d0b968a154debb7a/stateless4j-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="128aca4ace585f0b42faa739d0b968a154debb7a">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/stateless4j-2.4.0_2e242ed8c99d0cae848e2291c305f29cd8653484/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android-sqlite-custom/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e8fe5b1a26e3e3fb696414b60dd45d67b0317ed">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.couchbase.lite-couchbase-lite-android-sqlite-custom-1.3.0_052c851d82d80afa52a82f8f04567d65187747d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/3.0.3/1ebca99f633ef31484176a727093e78c7fa43e7/kryo-3.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01ebca99f633ef31484176a727093e78c7fa43e7">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/kryo-3.0.3_440473f16955eb3a1e89ba5b7ad3888930edd8ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.5.0_204dd67c6f4434dcc79a98a199d46071515f375f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_0f60646b8ffa6e42cedde5eb603f1628216bd993/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_0c624023529faf5176ea2fdbe097ef157159cd7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-java-core/1.3.0/f8d6ca278ce7fe6f1464e00bfcca76ff2893a998/couchbase-lite-java-core-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d6ca278ce7fe6f1464e00bfcca76ff2893a998">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/couchbase-lite-java-core-1.3.0_9a4dbe656ff23415a531d5fcbec4e01cc633bc45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="900c82add9a891f46f3d2348203e833721f35209">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.rehacktive-waspdb-1.1.1_0a78df1a2bc49b03b0f0c47ff1b154a134cda87b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_4774625d7b8fc8aba61f611f76b5979a51eb84cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a4f6d2faa265d99aa76292f313afc9103c780b5">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e950035b287adebad9b5841ffe52997252d2b08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2ece1bd57ac7b4c315b7505b65ac79cb1da4270">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.5.0_796f52b86fa5b6b8caab851f74a970dcb41217db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_7a467f10353dc6575af1843e980eaf51fb63f40f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/objenesis-2.1_4393315b84d41e7c0f0ab92ff50521cd9ce99c6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/apps/android-studio/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dcc2193db20e19e1feca8b1240dbbc4e190824fa">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/asm-5.0.3_8edd9b9760b9daa2cb0528ade1093ac5d6d4d60c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_0984dd052f73bdf11c74da5c4b271249f84581c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="844cd90942acc0fe1a3b8de2c2241f83c8eca939">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2b21733593e6557ed501785d24614ca466b238f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_cb302c7c4d7f1ddd6fa9579a9eceedee6c80e64f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="489b7552dd3322b63f694122d16ce62c21c303b5">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.5.0_ef0503598d2a72c1828ee49bf447b613ebbc92d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a1d9831516db13768d744142f90937ed36cbb60c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_1322ee9f4222b1a96cc104e507218c1e2773b8f0/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/chris/dev/android/mindwave/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/home/chris/dev/android/mindwave/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/chris/dev/android/mindwave/app/build/intermediates/res/merged/debug/drawable-xxhdpi/select_device_bg.png",
+        "source": "/home/chris/dev/android/mindwave/app/src/main/res/drawable-xxhdpi/select_device_bg.png"
+    },
+    {
+        "merged": "/home/chris/dev/android/mindwave/app/build/intermediates/res/merged/debug/drawable-xxhdpi/gouxuan2.png",
+        "source": "/home/chris/dev/android/mindwave/app/src/main/res/drawable-xxhdpi/gouxuan2.png"
+    },
+    {
+        "merged": "/home/chris/dev/android/mindwave/app/build/intermediates/res/merged/debug/drawable-xxhdpi/gouxuan1.png",
+        "source": "/home/chris/dev/android/mindwave/app/src/main/res/drawable-xxhdpi/gouxuan1.png"
+    }
+]
