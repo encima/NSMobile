@@ -5,40 +5,33 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="20920425043554"
+    timestamp="21651456747237"
     token="1270679157973457781"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="68" />
+        duration="165" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="101" />
     <task
         name="verifier"
-        duration="0" />
+        duration="8" />
 
     <artifact
-        location="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
+        location="/home/chris/dev/android/nsmobile/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="20560943019959"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="21651456747237"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/chris/dev/android/nsmobile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="20920425043554"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

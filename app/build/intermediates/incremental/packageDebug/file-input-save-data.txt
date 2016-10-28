@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Oct 28 16:43:32 BST 2016
+#Fri Oct 28 17:02:22 BST 2016
 20.base=/home/chris/dev/android/nsmobile/app/build/intermediates/res/resources-debug.ap_
 143.base=/home/chris/dev/android/nsmobile/app/build/intermediates/res/resources-debug.ap_
 493.base=/home/chris/dev/android/nsmobile/app/build/intermediates/res/resources-debug.ap_

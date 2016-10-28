@@ -251,7 +251,7 @@ ADDED from /home/chris/dev/android/nsmobile/app/src/main/AndroidManifest.xml:45:
 activity#ms.gwillia.sockethead.MainActivity
 ADDED from /home/chris/dev/android/nsmobile/app/src/main/AndroidManifest.xml:51:9-60:20
 	android:label
-		ADDED from /home/chris/dev/android/nsmobile/app/src/main/AndroidManifest.xml:53:13-57
+		ADDED from /home/chris/dev/android/nsmobile/app/src/main/AndroidManifest.xml:53:13-56
 	android:theme
 		ADDED from /home/chris/dev/android/nsmobile/app/src/main/AndroidManifest.xml:54:13-69
 	android:name

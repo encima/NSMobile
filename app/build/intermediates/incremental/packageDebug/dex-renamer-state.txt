@@ -1,4 +1,4 @@
-#Fri Oct 28 16:43:31 BST 2016
+#Fri Oct 28 17:02:21 BST 2016
 base.0=/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1157a045dfc22e8cb20a23c2bb735e4ccd7de33b
 renamed.1=classes2.dex
 renamed.0=classes.dex

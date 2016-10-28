@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">TGStreamDemo_MindWaveMobile</string>
+    <string name="app_name">SockHead</string>
     <string name="title_activity_main">MainActivity</string>
 
     <string name="title_section1">Section 1</string>
@@ -13,6 +13,5 @@
     <string name="action_example">Example action</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_main2">Main2Activity</string>
 
 </resources>

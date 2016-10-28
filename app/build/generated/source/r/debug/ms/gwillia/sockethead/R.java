@@ -4022,7 +4022,7 @@ containing a value of this type.
         public static final int container_all=0x7f0f00f2;
         public static final int container_current=0x7f0f00f3;
         public static final int contentPanel=0x7f0f0097;
-        public static final int content_main2=0x7f0f00fe;
+        public static final int content_main=0x7f0f00fe;
         public static final int controllers=0x7f0f00de;
         public static final int crash_reporting_present=0x7f0f0011;
         public static final int custom=0x7f0f009d;
@@ -4492,10 +4492,9 @@ containing a value of this type.
         public static final int tagmanager_preview_dialog_message=0x7f09007f;
         public static final int tagmanager_preview_dialog_title=0x7f090080;
         public static final int title_activity_main=0x7f090081;
-        public static final int title_activity_main2=0x7f090082;
-        public static final int title_section1=0x7f090083;
-        public static final int title_section2=0x7f090084;
-        public static final int title_section3=0x7f090085;
+        public static final int title_section1=0x7f090082;
+        public static final int title_section2=0x7f090083;
+        public static final int title_section3=0x7f090084;
         public static final int wallet_buy_button_place_holder=0x7f090067;
     }
     public static final class style {

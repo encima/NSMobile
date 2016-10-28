@@ -1264,7 +1264,7 @@ int id contact 0x7f0f004f
 int id container_all 0x7f0f00f2
 int id container_current 0x7f0f00f3
 int id contentPanel 0x7f0f0097
-int id content_main2 0x7f0f00fe
+int id content_main 0x7f0f00fe
 int id controllers 0x7f0f00de
 int id crash_reporting_present 0x7f0f0011
 int id custom 0x7f0f009d
@@ -1722,10 +1722,9 @@ int string tagmanager_preview_dialog_button 0x7f09007e
 int string tagmanager_preview_dialog_message 0x7f09007f
 int string tagmanager_preview_dialog_title 0x7f090080
 int string title_activity_main 0x7f090081
-int string title_activity_main2 0x7f090082
-int string title_section1 0x7f090083
-int string title_section2 0x7f090084
-int string title_section3 0x7f090085
+int string title_section1 0x7f090082
+int string title_section2 0x7f090083
+int string title_section3 0x7f090084
 int string wallet_buy_button_place_holder 0x7f090067
 int style AlertDialog_AppCompat 0x7f0a008e
 int style AlertDialog_AppCompat_Light 0x7f0a008f

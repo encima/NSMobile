@@ -70,13 +70,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (!Utils.isMyServiceRunning(BGReadService.class, getApplicationContext())) {
                     scanDevice();
+                    Snackbar.make(view, "Logging Starting", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 } else {
 //                    btn_selectdevice.setText("Select Device");
+                    btn_selectdevice.setBackgroundDrawable(getDrawable(R.drawable.ic_media_play));
                     getApplicationContext().stopService(new Intent(getApplicationContext(), BGReadService.class));
-
+                    Snackbar.make(view, "Logging Stopping", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 }
-                Snackbar.make(view, "Logging Starting", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
             }
         });
     }
@@ -172,8 +175,7 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra("BD", bd);
         startService(i);
 //        btn_selectdevice.setText("Stop Service");
-        btn_selectdevice.setBackgroundDrawable(getDrawable(R.drawable.cast_ic_mini_controller_pause));
-
+        btn_selectdevice.setBackgroundDrawable(getDrawable(R.drawable.cast_ic_expanded_controller_stop));
         Log.i(TAG, "Started service");
         return tgStreamReader;
     }

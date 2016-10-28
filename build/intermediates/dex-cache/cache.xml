@@ -12,42 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.8.0_29394c5846fb0535b64b882ecd3f4cb1596a774a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_b667df1712ca56a3e6cd2d42e3ae1c4d2254d687/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.rvalerio/fgchecker/1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="91705d00b7a7ca5e79b21165fb4572c53cb386a3">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rvalerio-fgchecker-1.0_a278a39028009338f556fba0000466a3b0dee092/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_238b02401cc0f7379f85544a76cac718247ae378/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
         jumboMode="true"
         optimize="true"
@@ -57,57 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_6bed50dc4fb0eb6218bf76a644b858bd29b45844/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_1c1c7ffa77994219cb9817889fbdae67a395e00f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.8.0_854bf3cfb7aa1e0a916473a5d25d347941fc77df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_879445156a95aa7744f93d426268f0cfb6f37981/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
         <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_843a356cb59be97e524df290cdc81a64578d946e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_6865ff837596ff24abe24db14bcd2aa3d69af09a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,42 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_197b5065723ac12ac67adf8f8370bb51a4bfa608/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.rvalerio/fgchecker/1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="91705d00b7a7ca5e79b21165fb4572c53cb386a3">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rvalerio-fgchecker-1.0_70e6cbe51fd0b36e24a3dcecee524c0f18466a09/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.5.0_204dd67c6f4434dcc79a98a199d46071515f375f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_0f60646b8ffa6e42cedde5eb603f1628216bd993/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -198,15 +81,6 @@
         revision="25.0.0"
         sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_d0d8ff167f136aed9d40b2f5788b1bf8d4955442/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_e59b7c676b177a2f19730b2ab6e561ecbdbaa287/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -273,24 +147,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_11afa605c22a84aa375d1d21c6673ba3cf108bec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_1175d5886fbe34fda985b6159c5322764ff1299d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -309,30 +165,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c60000c0f974f4a3169e8cfee48a19b911a701fe">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75d4dce5e5ce91bc759327ae04cc51f96c74667d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_57355337b54e14f7a876547e3ba14b37cd865bbe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.8.0_4d10547accf97d8428cb6ddce3489d9ab2d7f6b8/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -345,30 +183,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b2ece1bd57ac7b4c315b7505b65ac79cb1da4270">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.5.0_796f52b86fa5b6b8caab851f74a970dcb41217db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.8.0_8962ea4a601ff1ea3f2d92f2ab9f7faaf5c2bbc8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_7a467f10353dc6575af1843e980eaf51fb63f40f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -387,6 +207,420 @@
         revision="25.0.0"
         sha1="dcc2193db20e19e1feca8b1240dbbc4e190824fa">
         <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/asm-5.0.3_8edd9b9760b9daa2cb0528ade1093ac5d6d4d60c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.8.0_3f2e488d5cc9eef9ce86d24c5e385ae67728e397/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.8.0_aeb20363b29cb3a3e2ae5ed0462089b9dad37913/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_359b343837911711bf9f6a1a68ec4e146c9dceef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a4f773399622362d9e0b87e1ef0e83361bdf4f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/libs/libStreamSDK_v1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="033b7351fc2173a9ac8e82a355c877495759eb67">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_4d9d3685429e0713a3e7204d733d0cd4db4037a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="900c82add9a891f46f3d2348203e833721f35209">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.rehacktive-waspdb-1.1.1_157365dfd5a296da7c766b80754107e1e6edd2d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_7fab8afa2613fbcf7dec2cd485d2d7caabf9966b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_6bfadd4f232641e83cfd0efa210e34c0d3c2e325/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.8.0_d1db88fbff02f3170226fe7c6ab529d9a722d0dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_853ed5606803fd2c031ee308120ba95af43665d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.8.0_d5fd658a5c5952e799af1a8a578c3717a0713d84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/libs/libStreamSDK_v1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="033b7351fc2173a9ac8e82a355c877495759eb67">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_9e8732f892341b2d79ea94bc78918552022cbbfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_67ab066a8cf67a72fad73e1a082090ff9711e33b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.8.0_72f63b9723ea7e438b9304018b78df53160aca6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.8.0_f4f03a641e408aa47553e3338ba9026ef8258f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_e50821a3343951ef44c5207b4665524bdd97ea52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_3d8216a49dca49351369e17323402fe99f09eae4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.8.0_7d7308c7480a9d2a7d629f612ef99a034cfd5373/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_af80e7a28f3da7d02d9bd4a2c7dccaac7cb5a879/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="844cd90942acc0fe1a3b8de2c2241f83c8eca939">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2b21733593e6557ed501785d24614ca466b238f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_8a1c47a6afc5bf0a228dc94a79fa3266b35f4c47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3fc4dfebdf5d9c8df2c43f12a24aee689dd36d8d">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1157a045dfc22e8cb20a23c2bb735e4ccd7de33b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a1d9831516db13768d744142f90937ed36cbb60c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_84530f5f2decbc23af23a2bc0720fff0580519f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.8.0_c34cb279f5fcb4668aed1161af17186728097e89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.8.0_b1f697c633b7e32c4274264abd44116ccc31b667/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.8.0_29394c5846fb0535b64b882ecd3f4cb1596a774a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_b667df1712ca56a3e6cd2d42e3ae1c4d2254d687/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.rvalerio/fgchecker/1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="91705d00b7a7ca5e79b21165fb4572c53cb386a3">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rvalerio-fgchecker-1.0_a278a39028009338f556fba0000466a3b0dee092/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_238b02401cc0f7379f85544a76cac718247ae378/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_6bed50dc4fb0eb6218bf76a644b858bd29b45844/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_1c1c7ffa77994219cb9817889fbdae67a395e00f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.8.0_854bf3cfb7aa1e0a916473a5d25d347941fc77df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_879445156a95aa7744f93d426268f0cfb6f37981/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_6865ff837596ff24abe24db14bcd2aa3d69af09a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_197b5065723ac12ac67adf8f8370bb51a4bfa608/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.rvalerio/fgchecker/1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="91705d00b7a7ca5e79b21165fb4572c53cb386a3">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rvalerio-fgchecker-1.0_70e6cbe51fd0b36e24a3dcecee524c0f18466a09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.5.0_204dd67c6f4434dcc79a98a199d46071515f375f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_0f60646b8ffa6e42cedde5eb603f1628216bd993/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_e59b7c676b177a2f19730b2ab6e561ecbdbaa287/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_11afa605c22a84aa375d1d21c6673ba3cf108bec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_1175d5886fbe34fda985b6159c5322764ff1299d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00e8e61dc3bd8300b0f700b02ab6d5ebfa07ee2c">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75d4dce5e5ce91bc759327ae04cc51f96c74667d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.8.0_4d10547accf97d8428cb6ddce3489d9ab2d7f6b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2ece1bd57ac7b4c315b7505b65ac79cb1da4270">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.5.0_796f52b86fa5b6b8caab851f74a970dcb41217db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_7a467f10353dc6575af1843e980eaf51fb63f40f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -423,15 +657,6 @@
         revision="25.0.0"
         sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
         <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_cb302c7c4d7f1ddd6fa9579a9eceedee6c80e64f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.8.0_3f2e488d5cc9eef9ce86d24c5e385ae67728e397/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -489,15 +714,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.8.0_aeb20363b29cb3a3e2ae5ed0462089b9dad37913/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -525,39 +741,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_359b343837911711bf9f6a1a68ec4e146c9dceef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a4f773399622362d9e0b87e1ef0e83361bdf4f02/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android/1.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="2ce3006140ca3087f08a9f0ba1211255253474c5">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.couchbase.lite-couchbase-lite-android-1.3.1_3c8eb6fccdfc33a7ec81e1247feb8e07d121c130/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/libs/libStreamSDK_v1.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="033b7351fc2173a9ac8e82a355c877495759eb67">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_4d9d3685429e0713a3e7204d733d0cd4db4037a7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -576,15 +765,6 @@
         revision="25.0.0"
         sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.8.0_5ab4688535c5242189d043d305d05a420cafbee8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="900c82add9a891f46f3d2348203e833721f35209">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.rehacktive-waspdb-1.1.1_157365dfd5a296da7c766b80754107e1e6edd2d6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -624,15 +804,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_7fab8afa2613fbcf7dec2cd485d2d7caabf9966b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/reflectasm/1.10.1/515402cd542ab967a1b5028b4dee1e1800db205b/reflectasm-1.10.1.jar"
         jumboMode="true"
         optimize="true"
@@ -660,15 +831,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_6bfadd4f232641e83cfd0efa210e34c0d3c2e325/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -678,39 +840,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.8.0_d1db88fbff02f3170226fe7c6ab529d9a722d0dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_853ed5606803fd2c031ee308120ba95af43665d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_d92d889b6efc2871256d4377027f5090fc888dbb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.8.0_d5fd658a5c5952e799af1a8a578c3717a0713d84/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -729,15 +864,6 @@
         revision="25.0.0"
         sha1="128aca4ace585f0b42faa739d0b968a154debb7a">
         <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/stateless4j-2.4.0_2e242ed8c99d0cae848e2291c305f29cd8653484/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/libs/libStreamSDK_v1.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="033b7351fc2173a9ac8e82a355c877495759eb67">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/libStreamSDK_v1.2.0_9e8732f892341b2d79ea94bc78918552022cbbfc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -765,15 +891,6 @@
         revision="25.0.0"
         sha1="01ebca99f633ef31484176a727093e78c7fa43e7">
         <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/kryo-3.0.3_440473f16955eb3a1e89ba5b7ad3888930edd8ca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_67ab066a8cf67a72fad73e1a082090ff9711e33b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -810,24 +927,6 @@
         revision="25.0.0"
         sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_6b0660ce1d44376fc40a639e2cf40e0a78b1e65a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.8.0_72f63b9723ea7e438b9304018b78df53160aca6b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.8.0_f4f03a641e408aa47553e3338ba9026ef8258f02/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -876,15 +975,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_e50821a3343951ef44c5207b4665524bdd97ea52/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -903,39 +993,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_3d8216a49dca49351369e17323402fe99f09eae4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.8.0_7d7308c7480a9d2a7d629f612ef99a034cfd5373/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.8.0_1da53970a5fba13b6e3a9af34ddc32c227386e40/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="190a642ba16d1421296a4d794606279b80039c59">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_af80e7a28f3da7d02d9bd4a2c7dccaac7cb5a879/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -948,75 +1011,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="844cd90942acc0fe1a3b8de2c2241f83c8eca939">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2b21733593e6557ed501785d24614ca466b238f2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
         <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.8.0_c2386649792ef91287f5b3a2559af45d247d4fbb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_8a1c47a6afc5bf0a228dc94a79fa3266b35f4c47/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="190d034876297f2e81095030f5e619d2fcaf9391">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1157a045dfc22e8cb20a23c2bb735e4ccd7de33b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a1d9831516db13768d744142f90937ed36cbb60c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_84530f5f2decbc23af23a2bc0720fff0580519f4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.8.0_c34cb279f5fcb4668aed1161af17186728097e89/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
-        <dex dex="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.8.0_b1f697c633b7e32c4274264abd44116ccc31b667/classes.dex" />
     </item>
 
 </items>

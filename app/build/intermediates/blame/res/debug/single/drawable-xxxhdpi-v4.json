@@ -164,12 +164,12 @@
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxxhdpi-v4/ic_expand_00000.png"
     },
     {
-        "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png",
-        "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png"
-    },
-    {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_expand_00006.png",
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxxhdpi-v4/ic_expand_00006.png"
+    },
+    {
+        "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png",
+        "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png"
     },
     {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_cast_grey.png",
