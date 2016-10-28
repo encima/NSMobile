@@ -1,4 +1,4 @@
-package ms.gwillia.sockethead;
+package ms.gwillia.sockethead.brain;
 
 /**
  * Created by chris on 23/10/16.

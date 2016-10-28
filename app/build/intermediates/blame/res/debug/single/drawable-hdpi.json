@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/chris/dev/android/mindwave/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
         "source": "/home/chris/dev/android/mindwave/app/src/main/res/drawable-hdpi/ic_launcher.png"
     }

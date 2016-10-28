@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="waspdb-1.1.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/classes.jar!/" />
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/libs/commons-io-2.4.jar!/" />
       <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.rehacktive/waspdb/1.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,5 +1,6 @@
 package ms.gwillia.sockethead;
 
+import android.app.NotificationManager;
 import android.app.Service;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
@@ -8,13 +9,18 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
+import com.couchbase.lite.Database;
+import com.couchbase.lite.Manager;
+import com.couchbase.lite.android.AndroidContext;
 import com.neurosky.connection.ConnectionStates;
 import com.neurosky.connection.DataType.MindDataType;
 import com.neurosky.connection.EEGPower;
 import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
+import com.neurosky.sockethead.R;
 import com.rvalerio.fgchecker.AppChecker;
 
 import net.rehacktive.waspdb.WaspDb;
@@ -24,12 +30,16 @@ import net.rehacktive.waspdb.WaspHash;
 import java.util.Calendar;
 import java.util.List;
 
+import ms.gwillia.sockethead.brain.Reading;
+import ms.gwillia.sockethead.brain.Wave;
+
 public class BGReadService extends Service {
     private int badPacketCount = 0;
     private TgStreamReader tgStreamReader;
     WaspHash logs;
     private String TAG = "BGRead";
     Context ctx;
+    int mId = 1419;
 
     public BGReadService() {
     }
@@ -38,38 +48,56 @@ public class BGReadService extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.
-        Log.w("MyService", "onBind callback called");
+        Log.w(TAG, "onBind callback called");
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.w("MyService", "onStartCommand callback called");
+        Log.w(TAG, "onStartCommand callback called");
         this.ctx = this;
         Bundle extras = intent.getExtras();
         BluetoothDevice bd = (BluetoothDevice) extras.get("BD");
         tgStreamReader = new TgStreamReader(bd, callback);
         tgStreamReader.startLog();
         tgStreamReader.connectAndStart();
-        return START_STICKY;
+        createNotif();
+        return START_STICKY; //keep it running!
 //        super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public void onCreate() {
         super.onCreate();
+
+
         WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
         logs = db.openOrCreateHash("logs");
         List<Reading> allReads = logs.getAllValues();
-//        Log.i(TAG, "Readings: " + allReads.size());
-        Log.w("MyService", "onCreate callback called");
+        Log.w(TAG, "onCreate callback called");
     }
 
     @Override
     public void onDestroy() {
-        super.onDestroy();
         tgStreamReader.close();
-        Log.w("MyService", "onDestroy callback called");
+        NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        mNotificationManager.cancel(mId);
+        Log.w(TAG, "onDestroy callback called");
+        super.onDestroy();
+    }
+
+    private Database setUpCouchbase(String dbName) {
+        Manager manager = null;
+        Database database = null;
+        try {
+            manager = new Manager(new AndroidContext(this), Manager.DEFAULT_OPTIONS);
+            database = manager.getDatabase(dbName);
+            return database;
+        } catch (Exception e) {
+            Log.e(TAG, "Error getting database", e);
+            return null;
+        }
+
     }
 
 
@@ -172,5 +200,16 @@ public class BGReadService extends Service {
             super.handleMessage(msg);
         }
     };
+
+    public void createNotif() {
+        NotificationCompat.Builder mBuilder =
+        new NotificationCompat.Builder(this)
+        .setSmallIcon(R.drawable.ic_launcher)
+        .setContentTitle("Mindwave Service")
+        .setContentText("Currently Logging");
+        NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        mNotificationManager.notify(mId, mBuilder.build());
+
+    }
 
 }

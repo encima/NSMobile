@@ -48,6 +48,9 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Set;
 
+import ms.gwillia.sockethead.brain.Reading;
+import ms.gwillia.sockethead.brain.Wave;
+
 /**
  * This activity demonstrates how to use the constructor:
  * public TgStreamReader(BluetoothDevice mBluetoothDevice,TgStreamHandler tgStreamHandler)

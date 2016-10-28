@@ -31,6 +31,9 @@ import net.rehacktive.waspdb.WaspHash;
 
 import java.util.Calendar;
 
+import ms.gwillia.sockethead.brain.Reading;
+import ms.gwillia.sockethead.brain.Wave;
+
 /**
  * This activity demonstrates how to use the constructor:
  * public TgStreamReader(BluetoothAdapter ba, TgStreamHandler tgStreamHandler)

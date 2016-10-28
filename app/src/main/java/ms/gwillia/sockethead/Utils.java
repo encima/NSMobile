@@ -16,8 +16,7 @@ public class Utils {
     	Boolean returnValue = (Boolean) createBondMethod.invoke(device);
     	return returnValue.booleanValue();
     }
-	public static  int getRawWaveValue(byte highOrderByte, byte lowOrderByte)
-	 {
+	public static  int getRawWaveValue(byte highOrderByte, byte lowOrderByte) {
 		   int hi = ((int)highOrderByte)& 0xFF;
 		   int lo = ((int)lowOrderByte) & 0xFF;
 		   return( (hi<<8) | lo );

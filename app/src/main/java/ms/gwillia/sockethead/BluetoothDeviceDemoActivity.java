@@ -41,6 +41,8 @@ import net.rehacktive.waspdb.WaspDb;
 import net.rehacktive.waspdb.WaspFactory;
 import net.rehacktive.waspdb.WaspHash;
 
+import ms.gwillia.sockethead.brain.Reading;
+
 /**
  * This activity demonstrates how to use the constructor:
  * public TgStreamReader(BluetoothDevice mBluetoothDevice,TgStreamHandler tgStreamHandler)
