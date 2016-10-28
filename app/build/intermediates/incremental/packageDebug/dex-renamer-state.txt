@@ -1,7 +1,7 @@
-#Wed Oct 26 08:31:46 BST 2016
-base.0=/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2b21733593e6557ed501785d24614ca466b238f2
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e950035b287adebad9b5841ffe52997252d2b08/classes.dex
-base.1=/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e950035b287adebad9b5841ffe52997252d2b08
-file.0=/home/chris/dev/android/mindwave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2b21733593e6557ed501785d24614ca466b238f2/classes.dex
+#Fri Oct 28 16:43:31 BST 2016
+base.0=/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1157a045dfc22e8cb20a23c2bb735e4ccd7de33b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75d4dce5e5ce91bc759327ae04cc51f96c74667d/classes.dex
+base.1=/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75d4dce5e5ce91bc759327ae04cc51f96c74667d
+file.0=/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1157a045dfc22e8cb20a23c2bb735e4ccd7de33b/classes.dex

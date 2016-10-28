@@ -2,7 +2,14 @@ package ms.gwillia.sockethead;
 
 import java.lang.reflect.Method;
 
+import android.annotation.TargetApi;
+import android.app.ActivityManager;
+import android.app.AppOpsManager;
 import android.bluetooth.BluetoothDevice;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Build;
+import android.provider.Settings;
 
 public class Utils {
 
@@ -33,4 +40,30 @@ public class Utils {
 		   } 
 		   return sb.toString().toLowerCase();
 		}
+
+	public static void requestUsageStatsPermission(Context ctx) {
+		if(android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP
+				&& !hasUsageStatsPermission(ctx)) {
+			ctx.startActivity(new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS));
+		}
+	}
+
+	public static boolean isMyServiceRunning(Class<?> serviceClass, Context ctx) {
+		ActivityManager manager = (ActivityManager) ctx.getSystemService(Context.ACTIVITY_SERVICE);
+		for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
+			if (serviceClass.getName().equals(service.service.getClassName())) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	@TargetApi(Build.VERSION_CODES.KITKAT)
+	public static boolean hasUsageStatsPermission(Context ctx) {
+		AppOpsManager appOps = (AppOpsManager) ctx.getSystemService(Context.APP_OPS_SERVICE);
+		int mode = appOps.checkOpNoThrow("android:get_usage_stats",
+				android.os.Process.myUid(), ctx.getPackageName());
+		boolean granted = mode == AppOpsManager.MODE_ALLOWED;
+		return granted;
+	}
 }

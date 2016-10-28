@@ -1,6 +1,7 @@
 package ms.gwillia.sockethead;
 
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
@@ -12,7 +13,9 @@ import android.os.Message;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
+import com.couchbase.lite.CouchbaseLiteException;
 import com.couchbase.lite.Database;
+import com.couchbase.lite.Document;
 import com.couchbase.lite.Manager;
 import com.couchbase.lite.android.AndroidContext;
 import com.neurosky.connection.ConnectionStates;
@@ -20,7 +23,6 @@ import com.neurosky.connection.DataType.MindDataType;
 import com.neurosky.connection.EEGPower;
 import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
-import com.neurosky.sockethead.R;
 import com.rvalerio.fgchecker.AppChecker;
 
 import net.rehacktive.waspdb.WaspDb;
@@ -40,6 +42,7 @@ public class BGReadService extends Service {
     private String TAG = "BGRead";
     Context ctx;
     int mId = 1419;
+    Database cdb;
 
     public BGReadService() {
     }
@@ -69,11 +72,10 @@ public class BGReadService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-
-
-        WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
-        logs = db.openOrCreateHash("logs");
-        List<Reading> allReads = logs.getAllValues();
+//        WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
+//        logs = db.openOrCreateHash("logs");
+//        List<Reading> allReads = logs.getAllValues();
+        cdb = setUpCouchbase("logs");
         Log.w(TAG, "onCreate callback called");
     }
 
@@ -92,6 +94,8 @@ public class BGReadService extends Service {
         try {
             manager = new Manager(new AndroidContext(this), Manager.DEFAULT_OPTIONS);
             database = manager.getDatabase(dbName);
+
+
             return database;
         } catch (Exception e) {
             Log.e(TAG, "Error getting database", e);
@@ -189,10 +193,16 @@ public class BGReadService extends Service {
                             new Wave(power.lowAlpha, power.highAlpha), new Wave(power.lowBeta, power.highBeta),
                             new Wave(power.lowGamma, power.middleGamma), time,
                             "ANDROID", packageName);
-                    logs.put(time, r);
+//                    logs.put(time, r);
+                    Document d = cdb.createDocument();
+                    try {
+                        d.putProperties(r.getMap());
+                        Log.d(TAG, r.toString());
+                    } catch (CouchbaseLiteException e) {
+                        e.printStackTrace();
+                        Log.e(TAG, e.getMessage());
+                    }
 
-
-                    Log.d(TAG, r.toString());
 
                 default:
                     break;
@@ -202,11 +212,22 @@ public class BGReadService extends Service {
     };
 
     public void createNotif() {
+        Intent resultIntent = new Intent(this, MainActivity.class);
+        PendingIntent resultPendingIntent =
+                PendingIntent.getActivity(
+                        this,
+                        0,
+                        resultIntent,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+
         NotificationCompat.Builder mBuilder =
         new NotificationCompat.Builder(this)
         .setSmallIcon(R.drawable.ic_launcher)
         .setContentTitle("Mindwave Service")
-        .setContentText("Currently Logging");
+        .setOngoing(true).setContentText("Currently Logging").setContentIntent(resultPendingIntent);
+
+
         NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         mNotificationManager.notify(mId, mBuilder.build());
 

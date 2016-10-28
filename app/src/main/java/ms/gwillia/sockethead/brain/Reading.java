@@ -1,5 +1,8 @@
 package ms.gwillia.sockethead.brain;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by chris on 22/10/16.
  */
@@ -43,5 +46,19 @@ public class Reading {
                 ", system='" + system + '\'' +
                 ", fgApp='" + fgApp + '\'' +
                 '}';
+    }
+
+    public Map<String, Object> getMap() {
+        Map<String, Object> values = new HashMap<String,Object>();
+        values.put("delta", this.delta);
+        values.put("theta", this.theta);
+        values.put("alpha", this.alpha);
+        values.put("beta", this.beta);
+        values.put("gamma", this.gamma);
+        values.put("time", this.time);
+        values.put("system", this.system);
+        values.put("fgApp", this.fgApp);
+        return values;
+
     }
 }

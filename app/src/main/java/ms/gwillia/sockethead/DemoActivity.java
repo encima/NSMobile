@@ -2,7 +2,6 @@ package ms.gwillia.sockethead;
 
 
 import com.neurosky.connection.TgStreamReader;
-import com.neurosky.sockethead.R;
 
 import android.app.Activity;
 import android.content.Intent;

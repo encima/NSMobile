@@ -12,8 +12,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.neurosky.sockethead.R;
-
 
 public class BTDeviceListAdapter extends BaseAdapter {
 

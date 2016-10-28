@@ -7,7 +7,6 @@ import com.neurosky.connection.EEGPower;
 import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
 import com.neurosky.connection.DataType.MindDataType;
-import com.neurosky.sockethead.R;
 
 import android.app.Activity;
 import android.os.Bundle;

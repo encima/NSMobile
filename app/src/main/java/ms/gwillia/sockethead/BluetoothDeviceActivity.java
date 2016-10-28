@@ -36,7 +36,6 @@ import com.neurosky.connection.DataType.MindDataType.FilterType;
 import com.neurosky.connection.EEGPower;
 import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
-import com.neurosky.sockethead.R;
 import com.rvalerio.fgchecker.AppChecker;
 
 import net.rehacktive.waspdb.WaspDb;

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+        "outputFile": "/home/chris/dev/android/nsmobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -77,85 +77,158 @@
                         "endOffset": 323
                     }
                 }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/chris/dev/android/mindwave/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
-        "map": [
+            },
             {
                 "to": {
-                    "startLine": 2,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 69,
-                    "endOffset": 120
+                    "startOffset": 328,
+                    "endColumn": 91,
+                    "endOffset": 415
                 },
                 "from": {
-                    "file": "/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 183,
+                        "endColumn": 87,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 420,
+                    "endColumn": 90,
+                    "endOffset": 506
+                },
+                "from": {
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 271,
+                        "endColumn": 86,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 511,
+                    "endColumn": 98,
+                    "endOffset": 605
+                },
+                "from": {
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 358,
+                        "endColumn": 94,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 610,
+                    "endColumn": 94,
+                    "endOffset": 700
+                },
+                "from": {
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 453,
+                        "endColumn": 90,
+                        "endOffset": 543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 705,
+                    "endColumn": 74,
+                    "endOffset": 775
+                },
+                "from": {
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 69,
-                        "endOffset": 120
+                        "endColumn": 74,
+                        "endOffset": 125
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 125,
-                    "endColumn": 63,
-                    "endOffset": 184
+                    "startOffset": 780,
+                    "endColumn": 77,
+                    "endOffset": 853
                 },
                 "from": {
-                    "file": "/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 125,
-                        "endColumn": 63,
-                        "endOffset": 184
+                        "startOffset": 130,
+                        "endColumn": 77,
+                        "endOffset": 203
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 189,
-                    "endColumn": 70,
-                    "endOffset": 255
+                    "startOffset": 858,
+                    "endColumn": 74,
+                    "endOffset": 928
                 },
                 "from": {
-                    "file": "/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 189,
-                        "endColumn": 70,
-                        "endOffset": 255
+                        "startOffset": 208,
+                        "endColumn": 74,
+                        "endOffset": 278
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 260,
-                    "endColumn": 67,
-                    "endOffset": 323
+                    "startOffset": 933,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 1110
                 },
                 "from": {
-                    "file": "/home/chris/dev/android/mindwave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-land/values-land.xml",
+                    "file": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/values-land/values-land.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 260,
-                        "endColumn": 67,
-                        "endOffset": 323
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 232
                     }
                 }
             }

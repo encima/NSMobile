@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Set;
 
 import com.neurosky.connection.TgStreamReader;
-import com.neurosky.sockethead.R;
 import com.rvalerio.fgchecker.AppChecker;
 
 import android.annotation.TargetApi;
@@ -77,7 +76,7 @@ public class BluetoothDeviceDemoActivity extends Activity {
 		WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
 
 // now create an WaspHash, it's like a sql table
-		logs = db.openOrCreateHash("logs");
+		logs = db.openOrCreateHash("log");
 		List<Reading> allReads = logs.getAllValues();
 //		Log.i(TAG, "Readings: " + allReads.size());
 

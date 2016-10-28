@@ -5,33 +5,40 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="187651721396"
-    token="-544942363229109876"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="20920425043554"
+    token="1270679157973457781"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1038" />
+        duration="68" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="229" />
+        duration="11" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
-        location="/home/chris/dev/android/mindwave/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="187651721396"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="20560943019959"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="/home/chris/dev/android/mindwave/app/build/outputs/apk/app-debug.apk"
+            location="/home/chris/dev/android/nsmobile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="20920425043554"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/chris/dev/android/nsmobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
