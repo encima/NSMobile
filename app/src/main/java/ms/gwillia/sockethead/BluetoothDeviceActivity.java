@@ -38,13 +38,8 @@ import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
 import com.rvalerio.fgchecker.AppChecker;
 
-import net.rehacktive.waspdb.WaspDb;
-import net.rehacktive.waspdb.WaspFactory;
-import net.rehacktive.waspdb.WaspHash;
-
 import java.lang.reflect.Method;
 import java.util.Calendar;
-import java.util.List;
 import java.util.Set;
 
 import ms.gwillia.sockethead.brain.Reading;
@@ -67,7 +62,6 @@ public class BluetoothDeviceActivity extends Activity {
 	private BluetoothAdapter mBluetoothAdapter;
 	private BluetoothDevice mBluetoothDevice;
 	private String address = null;
-	WaspHash logs;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -77,14 +71,6 @@ public class BluetoothDeviceActivity extends Activity {
 		setContentView(R.layout.bluetoothdevice_view);
 
 		requestUsageStatsPermission();
-
-
-		WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
-
-// now create an WaspHash, it's like a sql table
-		logs = db.openOrCreateHash("logs");
-		List<Reading> allReads = logs.getAllValues();
-		Log.i(TAG, "Readings: " + allReads.size());
 
 		AppChecker appChecker = new AppChecker();
 		String packageName = appChecker.getForegroundApp(this);
@@ -412,7 +398,6 @@ public class BluetoothDeviceActivity extends Activity {
 						new Wave(power.lowAlpha, power.highAlpha), new Wave(power.lowBeta, power.highBeta),
 						new Wave(power.lowGamma, power.middleGamma), time,
 						"ANDROID", packageName);
-				logs.put(time, r);
 
 
 				Log.d(TAG, r.toString());

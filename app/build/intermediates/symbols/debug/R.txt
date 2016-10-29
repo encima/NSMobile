@@ -671,9 +671,11 @@ int drawable gouxuan1 0x7f020057
 int drawable gouxuan2 0x7f020058
 int drawable ic_drawer 0x7f020059
 int drawable ic_launcher 0x7f02005a
-int drawable navigation_empty_icon 0x7f02005b
-int drawable notification_template_icon_bg 0x7f02005d
-int drawable select_device_bg 0x7f02005c
+int drawable ic_play 0x7f02005b
+int drawable ic_stop 0x7f02005c
+int drawable navigation_empty_icon 0x7f02005d
+int drawable notification_template_icon_bg 0x7f02005f
+int drawable select_device_bg 0x7f02005e
 int id AbsoluteLayout1 0x7f0d006f
 int id Layout1 0x7f0d00a1
 int id action0 0x7f0d00a8

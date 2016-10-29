@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/chris/dev/android/nsmobile/app/src/main/jniLibs"><file name="armeabi/libNSUART.so" path="/home/chris/dev/android/nsmobile/app/src/main/jniLibs/armeabi/libNSUART.so"/></source></dataSet><dataSet config="debug"><source path="/home/chris/dev/android/nsmobile/app/src/debug/jniLibs"/></dataSet></merger>

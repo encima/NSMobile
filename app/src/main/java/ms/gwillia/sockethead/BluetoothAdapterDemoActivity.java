@@ -24,10 +24,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import net.rehacktive.waspdb.WaspDb;
-import net.rehacktive.waspdb.WaspFactory;
-import net.rehacktive.waspdb.WaspHash;
-
 import java.util.Calendar;
 
 import ms.gwillia.sockethead.brain.Reading;
@@ -54,7 +50,6 @@ public class BluetoothAdapterDemoActivity extends Activity {
 	private TgStreamReader tgStreamReader;
 
 	private BluetoothAdapter mBluetoothAdapter;
-	WaspHash logs;
 
 
 	@Override
@@ -63,11 +58,6 @@ public class BluetoothAdapterDemoActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.first_view);
-
-		WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
-
-// now create an WaspHash, it's like a sql table
-		logs = db.openOrCreateHash("logs");
 
 		initView();
 		setUpDrawWaveView();
@@ -339,7 +329,6 @@ public class BluetoothAdapterDemoActivity extends Activity {
 						new Wave(power.lowAlpha, power.highAlpha), new Wave(power.lowBeta, power.highBeta),
 						new Wave(power.lowGamma, power.middleGamma), time,
 						"ANDROID", packageName);
-				logs.put(time, r);
 
 
 				Log.d(TAG, r.toString());
