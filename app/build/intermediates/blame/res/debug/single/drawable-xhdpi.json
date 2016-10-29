@@ -8,7 +8,19 @@
         "source": "/home/chris/dev/android/nsmobile/app/src/main/res/drawable-xhdpi/ic_drawer.png"
     },
     {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/drawable-xhdpi/drawer_shadow.9.png",
         "source": "/home/chris/dev/android/nsmobile/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/drawable-xhdpi/drawer_shadow.9.png",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_drawer.png",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/src/main/res/drawable-xhdpi/ic_drawer.png"
     }
 ]

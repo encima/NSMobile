@@ -36,10 +36,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 
-import net.rehacktive.waspdb.WaspDb;
-import net.rehacktive.waspdb.WaspFactory;
-import net.rehacktive.waspdb.WaspHash;
-
 import ms.gwillia.sockethead.brain.Reading;
 
 /**
@@ -59,7 +55,7 @@ public class BluetoothDeviceDemoActivity extends Activity {
 	private BluetoothAdapter mBluetoothAdapter;
 	private BluetoothDevice mBluetoothDevice;
 	private String address = null;
-	WaspHash logs;
+
 
 	Intent serviceIntent = null;
 
@@ -73,11 +69,11 @@ public class BluetoothDeviceDemoActivity extends Activity {
 		requestUsageStatsPermission();
 
 
-		WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
+
 
 // now create an WaspHash, it's like a sql table
-		logs = db.openOrCreateHash("log");
-		List<Reading> allReads = logs.getAllValues();
+
+
 //		Log.i(TAG, "Readings: " + allReads.size());
 
 		AppChecker appChecker = new AppChecker();

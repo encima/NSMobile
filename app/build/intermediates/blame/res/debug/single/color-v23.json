@@ -4,6 +4,10 @@
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_color_highlight_material.xml"
     },
@@ -16,12 +20,36 @@
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/color-v23/design_tint_password_toggle.xml"
     },
     {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
@@ -38,5 +66,17 @@
     {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_default.xml"
     }
 ]

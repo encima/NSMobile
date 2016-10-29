@@ -25,12 +25,9 @@ import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
 import com.rvalerio.fgchecker.AppChecker;
 
-import net.rehacktive.waspdb.WaspDb;
-import net.rehacktive.waspdb.WaspFactory;
-import net.rehacktive.waspdb.WaspHash;
-
 import java.util.Calendar;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 import ms.gwillia.sockethead.brain.Reading;
 import ms.gwillia.sockethead.brain.Wave;
@@ -38,7 +35,6 @@ import ms.gwillia.sockethead.brain.Wave;
 public class BGReadService extends Service {
     private int badPacketCount = 0;
     private TgStreamReader tgStreamReader;
-    WaspHash logs;
     private String TAG = "BGRead";
     Context ctx;
     int mId = 1419;
@@ -72,9 +68,6 @@ public class BGReadService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-//        WaspDb db = WaspFactory.openOrCreateDatabase(getFilesDir().getPath(), "log", "pwd");
-//        logs = db.openOrCreateHash("logs");
-//        List<Reading> allReads = logs.getAllValues();
         cdb = setUpCouchbase("logs");
         Log.w(TAG, "onCreate callback called");
     }
@@ -193,10 +186,14 @@ public class BGReadService extends Service {
                             new Wave(power.lowAlpha, power.highAlpha), new Wave(power.lowBeta, power.highBeta),
                             new Wave(power.lowGamma, power.middleGamma), time,
                             "ANDROID", packageName);
-//                    logs.put(time, r);
                     Document d = cdb.createDocument();
+
                     try {
-                        d.putProperties(r.getMap());
+                        Map<String, Object> props = new HashMap<>();
+                        props.put("reading", r);
+                        //TODO check if props or individual hashmap works
+                        d.putProperties(props);
+//                        d.putProperties(r.getMap());
                         Log.d(TAG, r.toString());
                     } catch (CouchbaseLiteException e) {
                         e.printStackTrace();

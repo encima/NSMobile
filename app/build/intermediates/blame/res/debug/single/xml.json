@@ -2,5 +2,9 @@
     {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/xml/sharp.xml",
         "source": "/home/chris/dev/android/nsmobile/app/src/main/res/xml/sharp.xml"
+    },
+    {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/xml/sharp.xml",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/src/main/res/xml/sharp.xml"
     }
 ]

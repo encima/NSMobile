@@ -4,6 +4,10 @@
         "source": "/home/chris/dev/android/nsmobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.8.0/res/raw/gtm_analytics"
     },
     {
+        "merged": "/Users/encima/development/neurosky/nsmobile/app/build/intermediates/res/merged/debug/raw/tgam_capture.bin",
+        "source": "/Users/encima/development/neurosky/nsmobile/app/src/main/res/raw/tgam_capture.bin"
+    },
+    {
         "merged": "/home/chris/dev/android/nsmobile/app/build/intermediates/res/merged/debug/raw/tgam_capture.bin",
         "source": "/home/chris/dev/android/nsmobile/app/src/main/res/raw/tgam_capture.bin"
     }
